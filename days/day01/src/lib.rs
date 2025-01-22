@@ -1,4 +1,4 @@
-pub fn run(input: String) -> u32 {
+pub fn run_part_one(input: String) -> u32 {
     let mut ans = 0;
     for i in input.lines() {
         let mut done = false;
